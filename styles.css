@@ -1,0 +1,78 @@
+/* Obecné styly */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #ffffff;
+}
+
+
+header {
+    background-color: #e7c6ff;
+    color: #000000;
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+main {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background-color: #fbefef;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+main h2 {
+    color: #000000;
+    margin-top: 1.5rem;
+}
+
+main p {
+    margin: 0.5rem 0 1.5rem 0;
+}
+
+
+a {
+    color: #c8b6ff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #bbd0ff;
+}
+
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #ffd6ff;
+    color: #333;
+    font-size: 0.9rem;
+    margin-top: 2rem;
+}
+
+footer a {
+    color: #333;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    transition: transform 0.3s;
+    border: none;
+    border-radius: 4px;
+    background: #ffffff;
+    color: #000;
+    cursor: pointer;
+}
