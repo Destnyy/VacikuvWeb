@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -103,9 +107,11 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    flex-flow:wrap column;
+    
     gap: 25px;
     margin-top: 10px;
-    padding: 20px;
+    padding: 10px;
 }
 
 .card {
